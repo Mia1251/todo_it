@@ -1,14 +1,14 @@
 package se.lexicon.model;
 
 public class Person {
+    //Required fields
+    private int personId;
+    private int finalPersonId;
+    private String firstName;
+    private String lastName;
 
-    private int personId;           //Required fields
-    private int finalPersonId;     //Required fields
-    private String firstName;       //Required fields
-    private String lastName;        //Required fields
-
-
-    public Person(int personId, String firstName, String lastName) {        //Constructing the object
+    //Constructing the object
+    public Person(int personId, int finalPersonId,String firstName, String lastName) {
         this.personId = personId;
         this.finalPersonId = finalPersonId;
         this.firstName = firstName;
