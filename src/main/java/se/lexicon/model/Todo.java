@@ -1,7 +1,7 @@
 package se.lexicon.model;
 
 public class Todo {
-    //required fields
+    //Creating fields
     private int todoId;
     private int finalTodoId;
     private String description;
@@ -13,7 +13,7 @@ public class Todo {
         this.todoId = todoId;
         this.description = description;
     }
-
+    //Including getters and setters that are needed
     public int getTodoId() {
         return todoId;
     }

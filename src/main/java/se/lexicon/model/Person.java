@@ -1,7 +1,7 @@
 package se.lexicon.model;
 
 public class Person {
-    //Required fields
+    //Creating fields
     private int personId;
     private int finalPersonId;
     private String firstName;
@@ -15,7 +15,7 @@ public class Person {
         this.lastName = lastName;
     }
 
-    //getters and setters that are needed
+    //Including getters and setters that are needed
     public int getPersonId() {
         return personId;
     }
